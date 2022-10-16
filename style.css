@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    height:5vh;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 3vh;
+    justify-content: space-around;
+}
+.lists,
+.item-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    justify-content:space-between;
+    margin-right: 2vw;
+    position:relative;
+    right: 5vw;
+    cursor: pointer;
+}
+.item-list:hover{
+text-decoration:underline;
+}
+
+.heading{
+    top: 10vh;
+    font-size: 7vh;
+    width: 36vw;
+    position: relative;
+}
+.nav-btn{
+    background-color: rgb(63, 50, 240);
+    padding: 1.5vh 1vw;
+    width: 9vw;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    background-color:rgb(12, 0, 175) ;
+}
+.banner-container{
+    display: flex;
+    position: relative;
+    top: 10vh;
+}
+.text-right{
+    position: relative;
+    left: 8vw;
+}
+.description{
+    position: relative;
+    top: 16vh;
+    font-size: 2vh;
+}
+.service-btn{
+    background-color: rgb(63, 50, 240);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 1.5vh 1vw;
+    border: none;
+    position: relative;
+    top: 24vh;
+    cursor: pointer;
+}
+.service-btn:hover{
+    background-color:rgb(12, 0, 175) ;
+}
+.heading-img{
+    height: 80vh;
+    width: 67vw;
+    position: absolute;
+    right: 0;
+}
