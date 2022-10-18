@@ -34,10 +34,14 @@ text-decoration:underline;
 }
 
 .heading{
+    color: rgb(79, 26, 128);
     top: 10vh;
     font-size: 7vh;
     width: 36vw;
     position: relative;
+}
+span{
+   color:rgb(75, 75, 255); 
 }
 .nav-btn{
     background-color: rgb(63, 50, 240);
